@@ -55,4 +55,18 @@ collatz = fun2
 -- still have no idea how do i do something with an IO String if have pure functions
 -- that use String ?
 
+-- exercise 2 
+data Tree a = Leaf
+  | Node Integer (Tree a) a (Tree a)
 
+-- foldTree generates a balanced binary tree from a list of values using foldr
+-- foldTree "ABCDEFGHIJ" == ...
+-- ABCDE . FGHIJ
+-- 12345   12345
+-- split string into two equal halfs ? how ? why ? what for ?
+-- how make a balanced binary tree ?
+
+
+foldTree :: [a] -> Tree a
+foldTree [] = Leaf
+--?? no idea
