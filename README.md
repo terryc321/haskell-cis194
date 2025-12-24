@@ -22,6 +22,20 @@ higher order programming
 
 ## week-05
 
+typeclasses similar to overloading 
+
+Parser.hs using totally foreign constructs `<$>` `<|>` `<*>`
+
+what is Control.Applicative 
+
+what is Control.Arrow
+
+what is Data.Monoid
+
+what is Data.Char 
+
+what is Data.List 
+
 ## week-06
 
 ## week-07
